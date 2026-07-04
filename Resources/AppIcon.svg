@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="background" x1="120" y1="100" x2="900" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45A4FF"/>
+      <stop offset="1" stop-color="#1D55CF"/>
+    </linearGradient>
+    <clipPath id="ball"><circle cx="512" cy="512" r="294"/></clipPath>
+  </defs>
+  <rect x="34" y="34" width="956" height="956" rx="224" fill="url(#background)"/>
+  <circle cx="512" cy="512" r="294" fill="#FFFFFF" fill-opacity=".055" stroke="#FFFFFF" stroke-width="58"/>
+  <g clip-path="url(#ball)" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 396L425 345 337 409 371 514 468 528 512 490Z" stroke-width="38"/>
+    <path d="M425 345L390 229M337 409L238 377M371 514L284 624M468 528L427 775" stroke-width="34"/>
+    <path d="M512 218V806" stroke-width="22" opacity=".22"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+    <path d="M512 512V340M512 512L666 601" stroke-width="46"/>
+    <path d="M657 261L642 290M747 351L718 368M780 512H746M747 673L718 656M657 763L642 734" stroke-width="28"/>
+  </g>
+  <circle cx="512" cy="512" r="25" fill="#FFFFFF"/>
+</svg>
