@@ -1,0 +1,7 @@
+.build/
+build/
+outputs/
+work/
+Resources/AppIcon.iconset/
+.DS_Store
+*.xcuserstate
